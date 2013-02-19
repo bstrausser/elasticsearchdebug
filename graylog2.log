@@ -1,0 +1,55 @@
+
+[2013-02-19 14:03:00,881][INFO ][node                     ] [Slab] {0.20.4}[6809]: initializing ...
+[2013-02-19 14:03:00,881][DEBUG][node                     ] [Slab] using home [/usr/share/elasticsearch], config [/etc/elasticsearch], data [[/var/lib/elasticsearch]], logs [/var/log/elasticsearch], work [/tmp/elasticsearch], plugins [$
+[2013-02-19 14:03:00,887][INFO ][plugins                  ] [Slab] loaded [], sites []
+[2013-02-19 14:03:00,898][DEBUG][common.compress.lzf      ] using [UnsafeChunkDecoder] decoder
+[2013-02-19 14:03:01,172][DEBUG][env                      ] [Slab] using node location [[/var/lib/elasticsearch/graylog2/nodes/0]], local_node_id [0]
+[2013-02-19 14:03:02,434][DEBUG][threadpool               ] [Slab] creating thread_pool [generic], type [cached], keep_alive [30s]
+[2013-02-19 14:03:02,453][DEBUG][threadpool               ] [Slab] creating thread_pool [index], type [cached], keep_alive [5m]
+[2013-02-19 14:03:02,453][DEBUG][threadpool               ] [Slab] creating thread_pool [bulk], type [cached], keep_alive [5m]
+[2013-02-19 14:03:02,453][DEBUG][threadpool               ] [Slab] creating thread_pool [get], type [cached], keep_alive [5m]
+[2013-02-19 14:03:02,453][DEBUG][threadpool               ] [Slab] creating thread_pool [search], type [cached], keep_alive [5m]
+[2013-02-19 14:03:02,453][DEBUG][threadpool               ] [Slab] creating thread_pool [percolate], type [cached], keep_alive [5m]
+[2013-02-19 14:03:02,453][DEBUG][threadpool               ] [Slab] creating thread_pool [management], type [scaling], min [1], size [5], keep_alive [5m]
+[2013-02-19 14:03:02,456][DEBUG][threadpool               ] [Slab] creating thread_pool [flush], type [scaling], min [1], size [10], keep_alive [5m]
+[2013-02-19 14:03:02,458][DEBUG][threadpool               ] [Slab] creating thread_pool [merge], type [scaling], min [1], size [20], keep_alive [5m]
+[2013-02-19 14:03:02,458][DEBUG][threadpool               ] [Slab] creating thread_pool [refresh], type [scaling], min [1], size [10], keep_alive [5m]
+[2013-02-19 14:03:02,458][DEBUG][threadpool               ] [Slab] creating thread_pool [cache], type [scaling], min [1], size [4], keep_alive [5m]
+[2013-02-19 14:03:02,458][DEBUG][threadpool               ] [Slab] creating thread_pool [snapshot], type [scaling], min [1], size [5], keep_alive [5m]
+[2013-02-19 14:03:02,476][DEBUG][transport.netty          ] [Slab] using worker_count[2], port[9300-9400], bind_host[null], publish_host[null], compress[false], connect_timeout[30s], connections_per_node[2/6/1], receive_predictor[512kb$
+[2013-02-19 14:03:02,484][DEBUG][discovery.zen.ping.multicast] [Slab] using group [224.2.2.4], with port [54328], ttl [3], and address [null]
+[2013-02-19 14:03:02,488][DEBUG][discovery.zen.ping.unicast] [Slab] using initial hosts [], with concurrent_connects [10]
+[2013-02-19 14:03:02,489][DEBUG][discovery.zen            ] [Slab] using ping.timeout [3s], master_election.filter_client [true], master_election.filter_data [false]
+[2013-02-19 14:03:02,490][DEBUG][discovery.zen.elect      ] [Slab] using minimum_master_nodes [-1]
+[2013-02-19 14:03:02,490][DEBUG][discovery.zen.fd         ] [Slab] [master] uses ping_interval [1s], ping_timeout [30s], ping_retries [3]
+[2013-02-19 14:03:02,496][DEBUG][discovery.zen.fd         ] [Slab] [node  ] uses ping_interval [1s], ping_timeout [30s], ping_retries [3]
+[2013-02-19 14:03:02,526][DEBUG][monitor.jvm              ] [Slab] enabled [true], last_gc_enabled [false], interval [1s], gc_threshold [{default=GcThreshold{name='default', warnThreshold=10000, infoThreshold=5000, debugThreshold=2000}$
+[2013-02-19 14:03:03,033][DEBUG][monitor.os               ] [Slab] Using probe [org.elasticsearch.monitor.os.SigarOsProbe@5f5dbf82] with refresh_interval [1s]
+[2013-02-19 14:03:03,037][DEBUG][monitor.process          ] [Slab] Using probe [org.elasticsearch.monitor.process.SigarProcessProbe@27307e1a] with refresh_interval [1s]
+[2013-02-19 14:03:03,040][DEBUG][monitor.jvm              ] [Slab] Using refresh_interval [1s]
+[2013-02-19 14:03:03,041][DEBUG][monitor.network          ] [Slab] Using probe [org.elasticsearch.monitor.network.SigarNetworkProbe@76a65bc3] with refresh_interval [5s]
+[2013-02-19 14:03:03,049][DEBUG][monitor.network          ] [Slab] net_info
+host [DevOpsMonitor]
+eth0    display_name [eth0]
+                address [/fe80:0:0:0:250:56ff:fe8a:3bb3%2] [/172.31.200.110]
+                mtu [1500] multicast [true] ptp [false] loopback [false] up [true] virtual [false]
+lo      display_name [lo]
+                address [/0:0:0:0:0:0:0:1%1] [/127.0.0.1]
+                mtu [16436] multicast [false] ptp [false] loopback [true] up [true] virtual [false]
+
+[2013-02-19 14:03:03,058][DEBUG][monitor.fs               ] [Slab] Using probe [org.elasticsearch.monitor.fs.SigarFsProbe@6494c757] with refresh_interval [1s]
+[2013-02-19 14:03:03,442][DEBUG][indices.store            ] [Slab] using indices.store.throttle.type [none], with index.store.throttle.max_bytes_per_sec [0b]
+[2013-02-19 14:03:03,448][DEBUG][cache.memory             ] [Slab] using bytebuffer cache with small_buffer_size [1kb], large_buffer_size [1mb], small_cache_size [10mb], large_cache_size [500mb], direct [true]
+[2013-02-19 14:03:03,455][DEBUG][script                   ] [Slab] using script cache with max_size [500], expire [null]
+[2013-02-19 14:03:03,493][DEBUG][cluster.routing.allocation.decider] [Slab] using node_concurrent_recoveries [2], node_initial_primaries_recoveries [4]
+[2013-02-19 14:03:03,493][DEBUG][cluster.routing.allocation.decider] [Slab] using [cluster.routing.allocation.allow_rebalance] with [indices_all_active]
+[2013-02-19 14:03:03,494][DEBUG][cluster.routing.allocation.decider] [Slab] using [cluster_concurrent_rebalance] with [2]
+[2013-02-19 14:03:03,496][DEBUG][gateway.local            ] [Slab] using initial_shards [quorum], list_timeout [30s]
+[2013-02-19 14:03:03,621][DEBUG][indices.recovery         ] [Slab] using max_size_per_sec[0b], concurrent_streams [3], file_chunk_size [512kb], translog_size [512kb], translog_ops [1000], and compress [true]
+[2013-02-19 14:03:03,679][DEBUG][http.netty               ] [Slab] using max_chunk_size[8kb], max_header_size[8kb], max_initial_line_length[4kb], max_content_length[100mb], receive_predictor[512kb->512kb]
+[2013-02-19 14:03:03,689][DEBUG][indices.memory           ] [Slab] using index_buffer_size [101.5mb], with min_shard_index_buffer_size [4mb], max_shard_index_buffer_size [512mb], shard_inactive_time [30m]
+[2013-02-19 14:03:03,690][DEBUG][indices.cache.filter     ] [Slab] using [node] weighted filter cache with size [20%], actual_size [203.1mb], expire [null], clean_interval [1m]
+[2013-02-19 14:03:03,718][DEBUG][gateway.local.state.meta ] [Slab] using gateway.local.auto_import_dangled [YES], with gateway.local.dangling_timeout [2h]
+[2013-02-19 14:03:03,823][DEBUG][gateway.local.state.meta ] [Slab] took 104ms to load state
+[2013-02-19 14:03:03,826][DEBUG][gateway.local.state.shards] [Slab] took 3ms to load started shards state
+[2013-02-19 14:03:03,829][DEBUG][bulk.udp                 ] [Slab] using enabled [false], host [null
